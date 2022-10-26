@@ -5,6 +5,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                sh 'mkdir test'
+                cd test
+                sh 'git init'
                 sh 'git pull https://github.com/amritansh1989/jenkins-pipeline-example.git'
             }
         }
