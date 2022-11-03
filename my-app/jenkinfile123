@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying12345....'
+                echo 'welcome to india'
             }
         }
     }
